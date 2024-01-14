@@ -200,7 +200,35 @@ header {
     border: none;
 }
 /*------- Main End  -------*/
-
+/* Footer Start  */
+footer {
+    background-color: #0A0826;
+    width: 100%;
+    padding: 30px 0px;
+    text-align: center;
+}
+footer h3 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #FFF;
+}
+footer p {
+    color: #D9DBE1;
+    font-size: 14px;
+    font-weight: 700;
+}
+.foot-icons {
+    margin-top: 15px;
+}
+.foot-icons i {
+    font-size: 18px;
+    color: white;
+    padding: 10px;
+    background-color: #22213C;
+    border-radius: 50%;
+    margin: 05px;
+}
+/* Footer End  */
 
 
 /* _____Media query_____ */
@@ -299,6 +327,19 @@ header {
     .featured-img img {
         width: 100%;
     }
-    
+    /* Footer Section  */
+    footer h3 {
+        font-size: 16px;
+    }
+    footer p {
+        font-size: 12px;
+
+    }
+    footer > p {
+        margin-bottom: -2px;
+    }
+    .foot-icons i {
+        font-size: 14px;
+    }
 
 }
